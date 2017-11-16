@@ -51,6 +51,9 @@ class Notifier {
         Serial.printf("MQTT: Connected\r\n");
         Serial.printf("Subscribe id: %d\r\n", mqtt.subscribe("/qos0", 0));
       });
+      mqtt.onPublish([this](int sub_id) {
+        Serial.printf("Published: temperature - %f; humidity - %f to topic %d \n", _t, _h, sub_id);
+      });
     
       mqtt.begin(mqtt_url);
     }
@@ -58,26 +61,19 @@ class Notifier {
     #define BUF_SIZE 5
 
     void Notify(float h, float t) {
+      _t = t;
+      _h = h;
       char buf[BUF_SIZE]; 
-      Serial.println("");
-
-      Serial.print("Temperature: ");
-      Serial.println(t);
-      sprintf(buf, "%f", t);
+      sprintf(buf, "%f %f", t, h);
       mqtt.publish("/temp", buf, 0, 0);
-
-      memset(buf, BUF_SIZE, 0);
-
-      Serial.print("Humidity: ");
-      Serial.println(h);
-      sprintf(buf, "%f", h);
-      mqtt.publish("/humid", buf, 0, 0);
-
+      memset(buf, BUF_SIZE*sizeof(char), 0);
       delay(5000);
     }
   private:
     MQTTClient mqtt;
     const char* mqtt_url = "mqtt://test.mosquitto.org:1883";
+    float _t;
+    float _h;
 };
 
 
