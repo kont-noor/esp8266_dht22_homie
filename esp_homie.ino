@@ -44,11 +44,11 @@ class Sensor {
 
 class Notifier {
   public:
-    Notifier(const char* mqtt_url) : _mqtt_url(mqtt_url) {
+    Notifier(const char* url, const char* topic) : _mqtt_url(url), _mqtt_topic(topic) {
       //topic, data, data is continuing
       _mqtt.onConnect([this]() {
         Serial.printf("MQTT: Connected\r\n");
-        Serial.printf("Subscribe id: %d\r\n", _mqtt.subscribe("/qos0", 0));
+        Serial.printf("Subscribe id: %d\r\n", _mqtt.subscribe(_mqtt_topic, 0));
       });
       _mqtt.onDisconnect([]() {
         Serial.printf("MQTT: disconnected\r\n");
@@ -83,7 +83,7 @@ class Notifier {
       _h = h;
       char buf[BUF_SIZE]; 
       sprintf(buf, "t:%d h:%d", t, h);
-      _mqtt.publish("/qos0", buf, 0, 0);
+      _mqtt.publish(_mqtt_topic, buf, 0, 0);
       memset(buf, BUF_SIZE*sizeof(char), 0);
       delay(5000);
       _mqtt.handle();
@@ -91,6 +91,7 @@ class Notifier {
   private:
     MQTTClient _mqtt;
     const char* _mqtt_url;
+    const char* _mqtt_topic;
     float _t;
     float _h;
 };
@@ -111,7 +112,7 @@ void setup() {
   }
   Serial.printf("\nConnected\n");
 
-  n = new Notifier("mqtt://test.mosquitto.org:1883");
+  n = new Notifier("mqtt://test.mosquitto.org:1883", "/qos0");
 }
 
 void loop() {
