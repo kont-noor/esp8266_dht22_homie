@@ -4,6 +4,21 @@
 #include <ESP8266MQTTClient.h>
 #include <ESP8266WiFi.h>
 
+#ifdef DEBUG_ESP_PORT
+#undef DEBUG_ESP_PORT
+#endif
+
+#define DEBUG_ESP_PORT Serial
+
+#ifdef DEBUG_ESP_PORT
+#define LOG(...) DEBUG_ESP_PORT.printf( __VA_ARGS__ )
+#endif
+
+#ifndef LOG
+#define LOG(...)
+#endif
+
+
 class Sensor {
   public:
     Sensor(const int pin, const int update_interval)
@@ -44,32 +59,32 @@ class Notifier {
     Notifier(const char* url, const char* topic) : _mqtt_url(url), _mqtt_topic(topic) {
       //topic, data, data is continuing
       _mqtt.onConnect([this]() {
-        Serial.printf("MQTT: Connected\r\n");
-        Serial.printf("Subscribe id: %d\r\n", _mqtt.subscribe(_mqtt_topic, 0));
+        LOG("MQTT: Connected\r\n");
+        LOG("Subscribe id: %d\r\n", _mqtt.subscribe(_mqtt_topic, 0));
       });
       _mqtt.onDisconnect([]() {
-        Serial.printf("MQTT: disconnected\r\n");
+        LOG("MQTT: disconnected\r\n");
       });
       _mqtt.onData([](String topic, String data, bool cont) {
-        Serial.printf("Data received, topic: %s, data: %s\r\n", topic.c_str(), data.c_str());
+        LOG("Data received, topic: %s, data: %s\r\n", topic.c_str(), data.c_str());
       });
 
       _mqtt.onSubscribe([](int sub_id) {
-        Serial.printf("Subscribe topic id: %d ok\r\n", sub_id);
+        LOG("Subscribe topic id: %d ok\r\n", sub_id);
       });
       _mqtt.onPublish([this](int sub_id) {
-        Serial.printf("Published: temperature - %d; humidity - %d to topic %d \n", _t, _h, sub_id);
+        LOG("Published: temperature - %d; humidity - %d to topic %d \n", _t, _h, sub_id);
       });
 
-      Serial.printf("\nInit mqtt %s\n", _mqtt_url);
+      LOG("\nInit mqtt %s\n", _mqtt_url);
 
       if(_mqtt.begin(_mqtt_url))
       {
-        Serial.printf("MQTT Init OK\n");
+        LOG("MQTT Init OK\n");
       }
       else
       {
-        Serial.printf("MQTT Init FAILED\n");
+        LOG("MQTT Init FAILED\n");
       }
     }
 
@@ -86,9 +101,9 @@ class Notifier {
 
       dtostrf(t,5,2,temp_buf);
       dtostrf(h,5,2,hum_buf);
-      
+
       sprintf(buf, "%s %s", temp_buf, hum_buf);
-      
+
       _mqtt.publish(_mqtt_topic, buf, 0, 0);
       _mqtt.handle();
     }
@@ -100,21 +115,26 @@ class Notifier {
     float _h;
 };
 
-Sensor s(D4, 300);
+// For NodeMCU use D4 or other pin you connect DHT
+Sensor s(2, 300);
 Notifier *n;
 
 void setup() {
+  #ifdef DEBUG_ESP_PORT
   Serial.begin(115200);
+  #endif
 
   WiFi.begin("net", "pass");
 
-  Serial.printf("\nConnecting to WiFi\n");
+  LOG("\nConnecting to WiFi\n");
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
+    #ifdef DEBUG_ESP_PORT
     Serial.print(".");
+    #endif
   }
-  Serial.printf("\nConnected\n");
+  LOG("\nConnected\n");
 
   n = new Notifier("mqtt://192.168.7.3:1883", "sensor/data");
 }
