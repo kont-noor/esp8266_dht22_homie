@@ -73,15 +73,23 @@ class Notifier {
       }
     }
 
-    #define BUF_SIZE 5
+    #define BUF_SIZE 7
+    #define COMMON_BUF_SIZE 20
 
     void Notify(float h, float t) {
       _t = t;
       _h = h;
-      char buf[BUF_SIZE]; 
-      sprintf(buf, "t:%d h:%d", t, h);
+
+      char temp_buf[BUF_SIZE]; 
+      char hum_buf[BUF_SIZE]; 
+      char buf[COMMON_BUF_SIZE];
+
+      dtostrf(t,5,2,temp_buf);
+      dtostrf(h,5,2,hum_buf);
+      
+      sprintf(buf, "%s %s", temp_buf, hum_buf);
+      
       _mqtt.publish(_mqtt_topic, buf, 0, 0);
-      memset(buf, BUF_SIZE*sizeof(char), 0);
       _mqtt.handle();
     }
   private:
@@ -108,7 +116,7 @@ void setup() {
   }
   Serial.printf("\nConnected\n");
 
-  n = new Notifier("mqtt://test.mosquitto.org:1883", "/qos0");
+  n = new Notifier("mqtt://192.168.7.3:1883", "sensor/data");
 }
 
 void loop() {
