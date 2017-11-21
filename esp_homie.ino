@@ -4,9 +4,6 @@
 #include <ESP8266MQTTClient.h>
 #include <ESP8266WiFi.h>
 
-const int PIN_DHT22 = D4;    // Broche - Pin DHT22
-const int SENSOR_UPDATE_INTERVAL = 300;
-
 class Sensor {
   public:
     Sensor(const int pin, const int update_interval)
@@ -85,7 +82,6 @@ class Notifier {
       sprintf(buf, "t:%d h:%d", t, h);
       _mqtt.publish(_mqtt_topic, buf, 0, 0);
       memset(buf, BUF_SIZE*sizeof(char), 0);
-      delay(5000);
       _mqtt.handle();
     }
   private:
@@ -96,7 +92,7 @@ class Notifier {
     float _h;
 };
 
-Sensor s(PIN_DHT22, SENSOR_UPDATE_INTERVAL);
+Sensor s(D4, 300);
 Notifier *n;
 
 void setup() {
@@ -118,4 +114,5 @@ void setup() {
 void loop() {
   s.read();
   n->Notify(s.humidity(), s.temperature());
+  delay(5000);
 }
