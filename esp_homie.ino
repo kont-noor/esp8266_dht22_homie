@@ -3,6 +3,7 @@
 
 #include <ESP8266MQTTClient.h>
 #include <ESP8266WiFi.h>
+#include "settings.h"
 
 #ifdef DEBUG_ESP_PORT
 #undef DEBUG_ESP_PORT
@@ -89,7 +90,7 @@ class Notifier {
     }
 
     #define BUF_SIZE 7
-    #define COMMON_BUF_SIZE 20
+    #define COMMON_BUF_SIZE 45
 
     void Notify(float h, float t) {
       _t = t;
@@ -102,7 +103,7 @@ class Notifier {
       dtostrf(t,5,2,temp_buf);
       dtostrf(h,5,2,hum_buf);
 
-      sprintf(buf, "%s %s", temp_buf, hum_buf);
+      sprintf(buf, "{\"temperature\":%s,\"humidity\":%s}", temp_buf, hum_buf);
 
       _mqtt.publish(_mqtt_topic, buf, 0, 0);
       _mqtt.handle();
@@ -118,25 +119,36 @@ class Notifier {
 // For NodeMCU use D4 or other pin you connect DHT
 Sensor s(2, 300);
 Notifier *n;
+int ledPin = 1;
 
 void setup() {
   #ifdef DEBUG_ESP_PORT
   Serial.begin(115200);
   #endif
+  pinMode(ledPin, OUTPUT);
 
-  WiFi.begin("net", "pass");
+  WiFi.begin(WIFI_SSID, WIFI_PASS);
 
   LOG("\nConnecting to WiFi\n");
 
   while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
+    delay(250);
+    digitalWrite(ledPin, HIGH);
+    delay(250);
+    digitalWrite(ledPin, LOW);
     #ifdef DEBUG_ESP_PORT
     Serial.print(".");
     #endif
   }
   LOG("\nConnected\n");
+  for(int i = 0; i < 4; i ++) {
+    digitalWrite(ledPin, HIGH);
+    delay(100);
+    digitalWrite(ledPin, LOW);
+    delay(100);
+  }
 
-  n = new Notifier("mqtt://192.168.7.3:1883", "sensor/data");
+  n = new Notifier(MQTT_HOST, MQTT_QUEUE);
 }
 
 void loop() {
