@@ -1,0 +1,5 @@
+#define WIFI_SSID "ssid"
+#define WIFI_PASS "password"
+#define MQTT_HOST "mqtt://192.168.7.6:1883"
+#define MQTT_INCOME_QUEUE "motor_handler/manage"
+#define MQTT_OUTGO_QUEUE "motor_handler/status"
