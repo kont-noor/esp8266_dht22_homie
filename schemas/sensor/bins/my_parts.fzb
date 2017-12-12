@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806" icon="Mine.png">
+    <title>My Parts</title>
+    <instances>
+        <instance moduleIdRef="ESP8266_Wifi_Modul_f9a74f02fed19eff94fd7319794da5f1_1" modelIndex="5765" path="/Users/k9/Documents/Fritzing/parts/user/ESP8266_Wifi_Modul_f9a74f02fed19eff94fd7319794da5f1_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="65e31feff426e0dde13a0544d0f93a7d" modelIndex="6712" path="/Users/k9/Documents/Fritzing/parts/user/DHT22_Humidity_and_Temperature_Sensor__5a66c01a9adead9b6c488a2653070fb3.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefixJay0000_a2d56c5c843144ee854cdd414d6338cf_1" modelIndex="12605" path="/Users/k9/Documents/Fritzing/parts/user/prefixJay0000_a2d56c5c843144ee854cdd414d6338cf_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefixJay0000_3409c91cd36cd65c9111d924eb47bb12_1" modelIndex="12791" path="/Users/k9/Documents/Fritzing/parts/user/prefixJay0000_3409c91cd36cd65c9111d924eb47bb12_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefixJay0000_5f45f496e449d90de6ee3f0921762223_1" modelIndex="12799" path="/Users/k9/Documents/Fritzing/parts/user/prefixJay0000_5f45f496e449d90de6ee3f0921762223_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_f201d50e2ec9d09ecfd972e3aa37ff95_1" modelIndex="12808" path="/Users/k9/Documents/Fritzing/parts/user/prefix0000_f201d50e2ec9d09ecfd972e3aa37ff95_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_e3507e99c5135c4f382ff05dd82d6b37_1" modelIndex="14146" path="/Users/k9/Documents/Fritzing/parts/user/prefix0000_e3507e99c5135c4f382ff05dd82d6b37_1.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

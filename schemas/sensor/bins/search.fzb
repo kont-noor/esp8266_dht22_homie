@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806" icon="Search.png" search="usb">
+    <title>Search</title>
+    <instances>
+        <instance moduleIdRef="prefix0000_e3507e99c5135c4f382ff05dd82d6b37_1" modelIndex="14064" path="/Users/k9/Documents/Fritzing/parts/user/prefix0000_e3507e99c5135c4f382ff05dd82d6b37_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_f201d50e2ec9d09ecfd972e3aa37ff95_1" modelIndex="14066" path="/Users/k9/Documents/Fritzing/parts/user/prefix0000_f201d50e2ec9d09ecfd972e3aa37ff95_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefixJay0000_3409c91cd36cd65c9111d924eb47bb12_1" modelIndex="14068" path="/Users/k9/Documents/Fritzing/parts/user/prefixJay0000_3409c91cd36cd65c9111d924eb47bb12_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefixJay0000_5f45f496e449d90de6ee3f0921762223_1" modelIndex="14070" path="/Users/k9/Documents/Fritzing/parts/user/prefixJay0000_5f45f496e449d90de6ee3f0921762223_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefixJay0000_a2d56c5c843144ee854cdd414d6338cf_1" modelIndex="14072" path="/Users/k9/Documents/Fritzing/parts/user/prefixJay0000_a2d56c5c843144ee854cdd414d6338cf_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel-arduino_galileo-(simple)" modelIndex="14074" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/intel-arduino_galileo-simple.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Teensy3.0+pads" modelIndex="14076" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Teensy 3.0+pads.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="5e3b9f7a14a1627168e700bfc9a03b3c" modelIndex="14078" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/USB connector.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="usb_3.0_female_fix" modelIndex="14079" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/usb_3.0_female_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="mega_pro-v13" modelIndex="14081" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/mega_pro-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Fio-v22(fix)" modelIndex="14083" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Fio-v22(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="b7c86ac27f1d86eafa64253206dff603" modelIndex="14085" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Wiring_S.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-CP2103_USB_UART-" modelIndex="14087" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-cp2103_usb_uart-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="HalfMinusBreadboardModuleID" modelIndex="14089" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/halfMinusBreadboard.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB-PTH" modelIndex="14091" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb-pth.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="udoo_dual" modelIndex="14093" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/udoo_dual.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="LiPo-USB-Charger-v21" modelIndex="14094" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/LiPo-USB-Charger-v21.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB-USB-A-S-NOSILK" modelIndex="14096" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb-usb-a-s-nosilk.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="linino_one_rev1" modelIndex="14098" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/linino_one(rev1).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB+SHIELD-" modelIndex="14099" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb_shield-.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_Ethernet" modelIndex="14101" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_Ethernet.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-FT232RL-BASIC-SSOP" modelIndex="14103" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-ft232rl-basic-ssop.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="raspberry_pi_zero_rev-1.1" modelIndex="14105" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Raspberry Pi Zero.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-ATMEGA32U4-QFN2" modelIndex="14106" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-atmega32u4-qfn2.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="chipkit_MX4" modelIndex="14108" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/chipkit_MX4.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB--JST-2MM-SMT" modelIndex="14110" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb--jst-2mm-smt.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-USB3318-" modelIndex="14112" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-usb3318-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="FTDI Basic-v13_lily" modelIndex="14114" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/FTDI Basic-v13_lily.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-PowerIC-BQ24022-" modelIndex="14116" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-poweric-bq24022-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ProtoShield-v25" modelIndex="14118" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/ProtoShield-v25.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB--A-H" modelIndex="14120" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb--a-h.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB--A-S" modelIndex="14122" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb--a-s.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="arch_pro_v1" modelIndex="14124" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/seeed_arch_pro_v1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Pro-Mini3.3V" modelIndex="14126" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Pro-Mini_3.3v-v14.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Teensy3.0" modelIndex="14128" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Teensy 3.0.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="arduinoXbeere" modelIndex="14130" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/arduinoXbeere.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-CY7C64215-" modelIndex="14132" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-cy7c64215-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB--MICROB" modelIndex="14134" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb--microb.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB_MICROB_PLUG--PTH" modelIndex="14136" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb_microb_plug--pth.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-FT232RL-SSOP" modelIndex="14138" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-ft232rl-ssop.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="LilyPad_Arduino_USB" modelIndex="14140" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/LilyPad_Arduino_USB.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="huzzah_esp8266" modelIndex="14141" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/huzzah_esp8266.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="PHOTON_fix" modelIndex="14143" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/PHOTON_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB-PTH-VERTICAL" modelIndex="14145" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb-pth-vertical.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="IOIO-v15" modelIndex="14147" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/IOIO-v15.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Mini-v5" modelIndex="14149" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Mini-v5.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB-MINIB--5PIN" modelIndex="14151" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb-minib--5pin.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="288ea56ea458fbe4774256402d9b0e34" modelIndex="14153" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Teensy 2.0 ++.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino Nano3(icsp)" modelIndex="14155" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino Nano3(icsp).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-ATMEGA8U2-AU" modelIndex="14157" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-atmega8u2-au.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino DUE V02b" modelIndex="14159" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_DUE_V02b.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="arduino_Uno_Rev3(fix)" modelIndex="14161" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/arduino_Uno_Rev3(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="micro-USB_b_horizontal" modelIndex="14162" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/micro-usb_b_horizontal.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="arduino_Yun(rev1)_v1" modelIndex="14164" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/arduino_Yun(rev1)_v1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino Nano3(fix)" modelIndex="14165" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino Nano3(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="PowerCell-v13" modelIndex="14167" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/PowerCell Lipo Charger Booster v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB--B-S" modelIndex="14169" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb--b-s.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB_MICROB_PLUG-" modelIndex="14171" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb_microb_plug-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="RFID_USB_Reader-v14" modelIndex="14173" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/RFID_USB_Reader-v14.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel-arduino_galileo_gen2-(simple)" modelIndex="14175" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/intel-arduino_galileo_gen2-simple.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel-arduino_galileo_gen2" modelIndex="14176" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/intel-arduino_galileo_gen2.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_Esplora" modelIndex="14178" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_Esplora.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Color-LCD-Shield-v14" modelIndex="14180" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Color-LCD-Shield-v14.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel_edison_minibreakout_fix" modelIndex="14182" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/intel_edison_minibreakout_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Fio-v22(icsp+)" modelIndex="14184" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Fio-v22(iscp+).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB_MICROB_PLUG--PTH2" modelIndex="14186" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb_microb_plug--pth2.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Pro-Mini.5v" modelIndex="14188" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Pro-Mini_5v-v14.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="atlas-sientific_Debugger" modelIndex="14190" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/atlas-sientific_Debugger.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_MEGA_2560-Rev3(fix)" modelIndex="14192" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_MEGA_2560-Rev3(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="chipkit_WF32" modelIndex="14194" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/chipkit_WF32.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB--SMD-NS" modelIndex="14195" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb--smd-ns.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="FTDI Basic-v13_3.3v" modelIndex="14197" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/FTDI Basic-v13_3.3v.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-FT232RQ-" modelIndex="14199" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-ft232rq-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="a0bc75e3536cc51ac28b344cead00745" modelIndex="14201" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Teensy 2.0.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-PL-2303XA-" modelIndex="14203" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-pl-2303xa-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ThermalPrinter" modelIndex="14205" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/thermalprinter.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB--MB-H" modelIndex="14207" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb--mb-h.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Fio-v22(icsp+)_bottom" modelIndex="14209" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Fio-v22(iscp+)-bottom.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-FT245RL-" modelIndex="14211" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-ft245rl-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB--A-SMD" modelIndex="14213" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb--a-smd.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB-SMD" modelIndex="14215" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb-smd.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_ADK_MEGA_2560-Rev3(iscp)" modelIndex="14217" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_ADK_MEGA_2560-Rev3(icsp).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="PowerBoost 500C - Adafruit" modelIndex="14219" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/PowerBoost 500C - Adafruit.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Fio-v22(fix)_bottom" modelIndex="14221" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Fio-v22(fix)-bottom.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="teensy_3.1" modelIndex="14223" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/teensy_3.1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino Voice Shield-v16" modelIndex="14224" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino Voice Shield-v16.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB-OLD" modelIndex="14226" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb-old.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Wireless_SD_v3" modelIndex="14228" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Wireless_SD_v3.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB_AB-" modelIndex="14230" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb_ab-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="xbeeshield-v13" modelIndex="14232" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/xbeeshield-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="81591c6c31ccf12f0f3ccec5f150df2d" modelIndex="14234" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/usbadapter_wiring.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel-arduino_galileo" modelIndex="14235" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/intel-arduino_galileo.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="USBHostShield-v13" modelIndex="14237" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/USBHostShield-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-ATMEGA32U4-QFN" modelIndex="14239" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-atmega32u4-qfn.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Gizwits_WiFi_Witty_ESP_12F" modelIndex="14241" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Gizwits_WiFi_Witty_ESP_12F.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ATmega32U4_8ccac0f2d3ec46a8b70512c3cbe9812d_2" modelIndex="14243" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/ATMEGA32U4 TQFP.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_Leonardo_Rev3(fix)" modelIndex="14245" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_Leonardo_Rev3(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Ethernet-v11" modelIndex="14247" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Ethernet-v11.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="XBee-Regulated-v12" modelIndex="14249" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/XBee-Regulated-v12.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel_edison_minibreakout_bottom_fix" modelIndex="14251" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/intel_edison_minibreakout-bottom_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_ADK_MEGA_2560-Rev3(fix)" modelIndex="14253" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_ADK_MEGA_2560-Rev3(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-MAX3421E-SMD" modelIndex="14255" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-max3421e-smd.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="arduino_uno(rev3)-icsp_only" modelIndex="14257" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/arduino_uno(rev3)-icsp(1).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="linino_dogUSB" modelIndex="14259" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/linino_dogUSB(01).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ESP8266-Thing-Dev" modelIndex="14261" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/ESP8266-Thing-Dev.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_Micro_Rev03(fix)" modelIndex="14263" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_Micro_Rev03(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="arch_v1.1" modelIndex="14265" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/seeed_arch_v1.1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SPARKCORE_v1_fix" modelIndex="14267" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/SPARKCORE_v1_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB-_" modelIndex="14268" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb-_.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB-PCB" modelIndex="14270" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb-pcb.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino-Pro-Mini-v13-a4+5" modelIndex="14272" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino-Pro-Mini-v13-a4+5.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Connectors-USB_MICROB_PLUG--SMT" modelIndex="14274" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-connectors-usb_microb_plug--smt.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="arduino_uno(rev3)-icsp" modelIndex="14276" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/arduino_uno(rev3)-icsp.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-CP210X_USB_UART-" modelIndex="14278" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-cp210x_usb_uart-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="FT230XQ_df1159ec8af0eb336d7fbe6068d3aed4_2" modelIndex="14280" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/FT230XQ_2.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="FTDI Basic-v13" modelIndex="14282" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/FTDI Basic-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino Pro" modelIndex="14284" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/Arduino_Pro.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-DigitalIC-FT2232D-" modelIndex="14286" path="/Applications/Fritzing.app/Contents/MacOS/fritzing-parts/core/sparkfun-digitalic-ft2232d-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+    </instances>
+</module>
