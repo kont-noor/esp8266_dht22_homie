@@ -11,9 +11,8 @@ python3 -m pip install wheel
 python3 -m pip install homeassistant
 cd ..
 
-cat home-assistant.service | sed -e s/homeassistant/$USER/g > home-assistant@$USER.service
-sudo cp home-assistant@$USER.service /etc/systemd/system/home-assistant@$USER.service
-rm -f home-assistant@$USER.service
+cat home-assistant.service | sed -e s/currentuser/$USER/g > home-assistant@$USER.service
+sudo mv home-assistant@$USER.service /etc/systemd/system/home-assistant@$USER.service
 
 sudo systemctl --system daemon-reload
 sudo systemctl enable home-assistant@$USER
