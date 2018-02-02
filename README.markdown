@@ -11,6 +11,11 @@ Data are sent by MQTT over WIFI channel.
 
 ## Setup
 
+### Homeassistant
+
+* copy `scripts/home-assistant.service` and `scripts/hub_bootstrap.sh` to the root directory of the dedicated user you're going to use to run home-assistant.
+* run `hub_bootstrap.sh` in order to install & run home-assistant
+
 ### Sketches
 
 Sketches are prepared in Arduino IDE. So it should be helpful to compile sketches to your blocks.
